@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "michael-curtis-portfolio"
+  },
+  "targets": {
+    "michael-curtis-portfolio": {
+      "hosting": {
+        "portfolio": [
+          "michael-curtis-portfolio"
+        ]
+      }
+    }
   }
 }
