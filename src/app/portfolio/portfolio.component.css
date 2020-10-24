@@ -1,0 +1,52 @@
+#aboutMeText {
+  background-color: turquoise;
+  /* margin: 2%; */
+  margin-top: 7em;
+}
+
+#profilePic {
+  width: 35%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+
+#portfolioPage {
+  background-color: turquoise;
+  /* margin: 2%; */
+  margin-top: 7em;
+}
+
+img {
+  height: 350px;
+  width: 350px;
+  margin: 1%;
+}
+
+#messageForm {
+  background-color: turquoise;
+  padding: 1%;
+  margin: 2%;
+  margin-top: 7em;
+}
+
+#footer {
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  #portfolioPics {
+    width: 764px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #portfolioPics {
+    width: 764px;
+  }
+}
+
+@media (max-width: 992px) {
+  #portfolioPics {
+    width: 387px;
+  }
+}
