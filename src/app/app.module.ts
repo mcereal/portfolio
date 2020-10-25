@@ -11,6 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,13 @@ import { FooterComponent } from './footer/footer.component';
     AboutComponent,
     FooterComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, NgbModule, RouterModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    NgbModule,
+    RouterModule,
+    NgxPageScrollCoreModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

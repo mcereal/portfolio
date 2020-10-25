@@ -3,9 +3,7 @@
   id="mainNav"
 >
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" [routerLink]="'/app'"
-      >Michael Curtis</a
-    >
+    <a class="navbar-brand js-scroll-trigger" href="#header">Michael Curtis</a>
 
     <button
       class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-secondary text-white rounded"
@@ -20,7 +18,7 @@
         <li class="nav-item ml-auto">
           <a
             class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-            [routerLink]="'/contact'"
+            href="#contact"
             (click)="isMenuCollapsed = true"
             >Contact</a
           >
@@ -28,7 +26,7 @@
         <li class="nav-item ml-auto">
           <a
             class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-            [routerLink]="'/portfolio'"
+            href="#portfolio"
             (click)="isMenuCollapsed = true"
             >Portfolio</a
           >
@@ -36,7 +34,8 @@
         <li class="nav-item ml-auto">
           <a
             class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-            [routerLink]="'/about'"
+            pageScroll
+            href="#about"
             (click)="isMenuCollapsed = true"
             >About</a
           >
