@@ -28,4 +28,7 @@ export class NavbarComponent implements OnInit {
   toHome() {
     document.getElementById('home').scrollIntoView({ behavior: 'smooth' });
   }
+  toContact() {
+    document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });
+  }
 }
