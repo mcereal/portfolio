@@ -14,7 +14,6 @@ export class NavbarComponent implements OnInit {
   navbarCollapse() {
     let mainNav = document.getElementById('mainNav');
     if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-      console.log(mainNav);
       mainNav.classList.add('navbar-shrink');
     } else {
       mainNav.classList.remove('navbar-shrink');
