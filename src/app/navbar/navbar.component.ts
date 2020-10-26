@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -10,4 +10,14 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {}
   public isMenuCollapsed = true;
+  @HostListener('document:scroll')
+  navbarCollapse() {
+    let mainNav = document.getElementById('mainNav');
+    if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+      console.log(mainNav);
+      mainNav.classList.add('navbar-shrink');
+    } else {
+      mainNav.classList.remove('navbar-shrink');
+    }
+  }
 }
