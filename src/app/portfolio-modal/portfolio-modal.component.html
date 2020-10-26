@@ -1,0 +1,263 @@
+<ng-template #content1 let-modal>
+  <div class="portfolio-modal" id="portfolioModal1">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button
+          class="close"
+          type="button"
+          data-dismiss="modal"
+          aria-label="Close"
+          (click)="modal.dismiss('Cross click')"
+        >
+          <span aria-hidden="true"><i class="fa fa-times"></i></span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h2
+                  class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                  id="portfolioModal1Label"
+                >
+                  The Eating Hour
+                </h2>
+
+                <div class="modal-body">
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image-->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="../../assets/the_eating_hour.png"
+                    alt=""
+                  />
+                  <!-- Portfolio Modal - Text-->
+                  <p class="mb-5">
+                    This web application allows a user to easily query their
+                    favorite meals and beverages. The Easting Hour features an
+                    interactive polished, modern UI that conforms to quality
+                    coding standards ensuring a fast and unique user experience.
+                    The application displays relavant information relating to
+                    query results including but not limited to country of
+                    origin, meal/drink prep instructions, recipe videos and
+                    more!
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    (click)="modal.close('Cross click')"
+                  >
+                    <i class="fa fa-times fa-fw"></i>
+                    Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-template>
+<ng-template #content2 let-modal>
+  <div class="portfolio-modal" id="portfolioModal1">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button
+          class="close"
+          type="button"
+          data-dismiss="modal"
+          aria-label="Close"
+          (click)="modal.dismiss('Cross click')"
+        >
+          <span aria-hidden="true"><i class="fa fa-times"></i></span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h2
+                  class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                  id="portfolioModal1Label"
+                >
+                  Weather Dashboard
+                </h2>
+
+                <div class="modal-body">
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image-->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="../../assets/weather_dashboard.png"
+                    alt=""
+                  />
+                  <!-- Portfolio Modal - Text-->
+                  <p class="mb-5">
+                    This web application allows a user to easily query any
+                    internantional city's relevant weather information. Weather
+                    Dashboard features an interactive, polished modern UI that
+                    conforms to quality coding standards ensuring a fast and
+                    unique user experience. The application displays relavant
+                    information relating to query results including but not
+                    limited to temperature, humidity, wind speed, UV index, and
+                    a five day forecast!
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    (click)="modal.close('Cross click')"
+                  >
+                    <i class="fa fa-times fa-fw"></i>
+                    Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-template>
+<ng-template #content3 let-modal>
+  <div class="portfolio-modal" id="portfolioModal1">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button
+          class="close"
+          type="button"
+          data-dismiss="modal"
+          aria-label="Close"
+          (click)="modal.dismiss('Cross click')"
+        >
+          <span aria-hidden="true"><i class="fa fa-times"></i></span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h2
+                  class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                  id="portfolioModal1Label"
+                >
+                  Responsive Portfolio
+                </h2>
+
+                <div class="modal-body">
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image-->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="../../assets/responsive_portfolio.png"
+                    alt=""
+                  />
+                  <!-- Portfolio Modal - Text-->
+                  <p class="mb-5">
+                    An initial attempt at a responsive portfolio page
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    (click)="modal.close('Cross click')"
+                  >
+                    <i class="fa fa-times fa-fw"></i>
+                    Close Window
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-template>
+<section class="page-section portfolio" id="portfolio">
+  <div class="container">
+    <!-- Portfolio Section Heading-->
+    <h2
+      class="page-section-heading text-center text-uppercase text-secondary mb-0"
+    >
+      Portfolio
+    </h2>
+    <!-- Icon Divider-->
+    <div class="divider-custom">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon"><i class="fa fa-folder-open"></i></div>
+      <div class="divider-custom-line"></div>
+    </div>
+    <!-- Portfolio Grid Items-->
+    <div class="row">
+      <!-- Portfolio Item 1-->
+      <div class="col-md-6 col-lg-4 mb-5" (click)="open(content1)">
+        <div class="portfolio-item mx-auto">
+          <div
+            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+          >
+            <div class="portfolio-item-caption-content text-center text-white">
+              <i class="fa fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="../../assets/the_eating_hour.png" />
+        </div>
+      </div>
+      <!-- Portfolio Item 2-->
+      <div class="col-md-6 col-lg-4 mb-5" (click)="open(content2)">
+        <div class="portfolio-item mx-auto">
+          <div
+            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+          >
+            <div class="portfolio-item-caption-content text-center text-white">
+              <i class="fa fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img
+            class="img-fluid"
+            src="../../assets/weather_dashboard.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- Portfolio Item 3-->
+      <div class="col-md-6 col-lg-4 mb-5" (click)="open(content3)">
+        <div class="portfolio-item mx-auto">
+          <div
+            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+          >
+            <div class="portfolio-item-caption-content text-center text-white">
+              <i class="fa fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img
+            class="img-fluid"
+            src="../../assets/responsive_portfolio.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

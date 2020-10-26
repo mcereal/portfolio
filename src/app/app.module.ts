@@ -12,6 +12,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
+import { PortfolioModalComponent } from './portfolio-modal/portfolio-modal.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
     HeaderComponent,
     AboutComponent,
     FooterComponent,
+    PortfolioModalComponent,
   ],
   imports: [
     BrowserModule,
