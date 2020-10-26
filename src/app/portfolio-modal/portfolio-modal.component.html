@@ -1,4 +1,4 @@
-<ng-template #content1 let-modal>
+<ng-template #modal1 let-modal>
   <div class="portfolio-modal" id="portfolioModal1">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
@@ -14,7 +14,7 @@
         <div class="modal-body text-center">
           <div class="container">
             <div class="row justify-content-center">
-              <div class="col-lg-8">
+              <div class="col-lg-12">
                 <h2
                   class="portfolio-modal-title text-secondary text-uppercase mb-0"
                   id="portfolioModal1Label"
@@ -46,9 +46,13 @@
                     query results including but not limited to country of
                     origin, meal/drink prep instructions, recipe videos and
                     more!
+                    <br />
+                    <a href="https://nihalwill.github.io/EatingHour/"
+                      >The Eating Hour</a
+                    >
                   </p>
                 </div>
-                <div class="modal-footer">
+                <div>
                   <button
                     type="button"
                     class="btn btn-primary"
@@ -66,8 +70,8 @@
     </div>
   </div>
 </ng-template>
-<ng-template #content2 let-modal>
-  <div class="portfolio-modal" id="portfolioModal1">
+<ng-template #modal2 let-modal>
+  <div class="portfolio-modal" id="portfolioModal2">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <button
@@ -82,7 +86,7 @@
         <div class="modal-body text-center">
           <div class="container">
             <div class="row justify-content-center">
-              <div class="col-lg-8">
+              <div class="col-lg-12">
                 <h2
                   class="portfolio-modal-title text-secondary text-uppercase mb-0"
                   id="portfolioModal1Label"
@@ -114,9 +118,13 @@
                     information relating to query results including but not
                     limited to temperature, humidity, wind speed, UV index, and
                     a five day forecast!
+                    <br />
+                    <a href="https://mcereal.github.io/weather_dashboard/"
+                      >Weather Dashboard</a
+                    >
                   </p>
                 </div>
-                <div class="modal-footer">
+                <div>
                   <button
                     type="button"
                     class="btn btn-primary"
@@ -134,8 +142,8 @@
     </div>
   </div>
 </ng-template>
-<ng-template #content3 let-modal>
-  <div class="portfolio-modal" id="portfolioModal1">
+<ng-template #modal3 let-modal>
+  <div class="portfolio-modal" id="portfolioModal3">
     <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <button
@@ -150,7 +158,7 @@
         <div class="modal-body text-center">
           <div class="container">
             <div class="row justify-content-center">
-              <div class="col-lg-8">
+              <div class="col-lg-12">
                 <h2
                   class="portfolio-modal-title text-secondary text-uppercase mb-0"
                   id="portfolioModal1Label"
@@ -175,9 +183,13 @@
                   <!-- Portfolio Modal - Text-->
                   <p class="mb-5">
                     An initial attempt at a responsive portfolio page
+                    <br />
+                    <a href="https://mcereal.github.io/responsive_portfolio/"
+                      >Responsive Portfolio</a
+                    >
                   </p>
                 </div>
-                <div class="modal-footer">
+                <div>
                   <button
                     type="button"
                     class="btn btn-primary"
@@ -212,7 +224,7 @@
     <!-- Portfolio Grid Items-->
     <div class="row">
       <!-- Portfolio Item 1-->
-      <div class="col-md-6 col-lg-4 mb-5" (click)="open(content1)">
+      <div class="col-md-6 col-lg-4 mb-5" (click)="open(modal1)">
         <div class="portfolio-item mx-auto">
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
@@ -225,7 +237,7 @@
         </div>
       </div>
       <!-- Portfolio Item 2-->
-      <div class="col-md-6 col-lg-4 mb-5" (click)="open(content2)">
+      <div class="col-md-6 col-lg-4 mb-5" (click)="open(modal2)">
         <div class="portfolio-item mx-auto">
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
@@ -242,7 +254,7 @@
         </div>
       </div>
       <!-- Portfolio Item 3-->
-      <div class="col-md-6 col-lg-4 mb-5" (click)="open(content3)">
+      <div class="col-md-6 col-lg-4 mb-5" (click)="open(modal3)">
         <div class="portfolio-item mx-auto">
           <div
             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
