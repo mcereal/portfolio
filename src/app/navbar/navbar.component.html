@@ -3,7 +3,7 @@
   id="mainNav"
 >
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="#home"
+    <a class="navbar-brand js-scroll-trigger" (click)="toHome()"
       ><i class="fa fa-code"></i
     ></a>
 
@@ -28,7 +28,7 @@
         <li class="nav-item ml-auto">
           <a
             class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-            href="#portfolio"
+            (click)="toPortfolio()"
             (click)="isMenuCollapsed = true"
             >Portfolio</a
           >
@@ -36,12 +36,18 @@
         <li class="nav-item ml-auto">
           <a
             class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-            pageScroll
-            href="#about"
+            (click)="toAbout()"
             (click)="isMenuCollapsed = true"
             >About</a
           >
         </li>
+        <!-- <li class="nav-item ml-auto">
+          <a
+            class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+            (click)="isMenuCollapsed = true"
+            ><i class="fa fa-cog"></i
+          ></a>
+        </li> -->
       </ul>
     </div>
   </div>

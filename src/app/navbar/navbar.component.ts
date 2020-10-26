@@ -19,4 +19,13 @@ export class NavbarComponent implements OnInit {
       mainNav.classList.remove('navbar-shrink');
     }
   }
+  toAbout() {
+    document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+  }
+  toPortfolio() {
+    document.getElementById('portfolio').scrollIntoView({ behavior: 'smooth' });
+  }
+  toHome() {
+    document.getElementById('home').scrollIntoView({ behavior: 'smooth' });
+  }
 }
