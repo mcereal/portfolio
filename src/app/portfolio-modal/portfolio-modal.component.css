@@ -1,10 +1,10 @@
 /* modal animation */
 .modal-content {
-  animation-name: example;
+  animation-name: fadeIn;
   animation-duration: 0.3s;
 }
 
-@keyframes example {
+@keyframes fadeIn {
   0% {
     transform: scale(0.5);
   }
